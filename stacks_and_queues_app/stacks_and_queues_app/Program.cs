@@ -24,6 +24,9 @@ class Program
         Stack<string> browserHistory = new Stack<string>();
 
         // Visit pages
+        string userInput = Console.ReadLine();
+        browserHistory.Push(userInput);
+
         browserHistory.Push("Page1");
         browserHistory.Push("Page2");
         browserHistory.Push("Page3");
